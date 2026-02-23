@@ -28,9 +28,9 @@ O repositório contém os seguintes arquivos na pasta principal:
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/JoaoAndryel/Grupo9_PacMan-AI.git
-   
+  ```bash 
    cd Grupo9_PacMan-AI
-
+  ````
 
 2. **Instale as dependências:**
 
