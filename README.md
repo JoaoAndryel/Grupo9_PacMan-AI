@@ -26,10 +26,13 @@ O repositório contém os seguintes arquivos na pasta principal:
 **Pré-requisitos:** Python 3.10+ e Git.
 
 1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/JoaoAndryel/Grupo9_PacMan-AI.git
-  ```bash 
-   cd Grupo9_PacMan-AI
+```bash
+git clone https://github.com/JoaoAndryel/Grupo9_PacMan-AI.git
+  ```
+
+   **Entrar na pasta**
+```bash 
+cd Grupo9_PacMan-AI
   ````
 
 2. **Instale as dependências:**
