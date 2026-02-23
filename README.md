@@ -4,20 +4,17 @@ Este projeto implementa um agente autônomo para o jogo Pac-Man, utilizando o al
 
 ---
 
-## 📁 Estrutura de Arquivos do Projeto
+## 📁 Estrutura do Projeto
 
-O repositório contém os seguintes arquivos na pasta principal:
+O código está organizado seguindo o paradigma de Agentes Inteligentes:
 
 ```text
-/Grupo9_PacMan-AI
-│
-├── astar_pacman.py       # Loop principal do jogo que integra a IA (Agente) e o Ambiente
-├── pacman_gamestate.py   # Lógica do motor gráfico, renderização e física (Pygame)
-├── board.py              # Matriz (grid 33x30) do mapa do labirinto
-├── search.py             # Algoritmos de busca base do repositório oficial AIMA (A*, etc.)
-├── utils.py              # Utilitários auxiliares obrigatórios para o funcionamento do AIMA
-├── test.py               # Suíte de testes automatizados (Pytest) para validação da modelagem
-└── /assets/              # Pasta contendo as imagens e sprites do jogo
+* /env: Motor gráfico (Pygame), mapa do labirinto e assets visuais.
+* /problems: Modelagem matemática do mundo (Subclasse Problem do AIMA).
+* /agents: O "cérebro" do agente que executa o algoritmo de busca.
+* /tests: Suíte de testes automatizados para validação do modelo.
+* main.py: Loop principal que integra o ambiente e o agente.
+* search.py e utils.py: Arquivos base do repositório oficial aima-python.
 ````
 ---
 
