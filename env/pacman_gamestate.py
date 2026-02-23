@@ -16,14 +16,14 @@ from pathlib import Path
 
 # Carregamento robusto e dinâmico do board sem forçar caminhos específicos
 try:
-    from board import boards
+    from env.board import boards
     BOARDS = boards
 except ImportError:
     print("Erro: O arquivo board.py não foi encontrado na mesma pasta.")
     sys.exit(1)
 
 # Assume que a pasta 'assets' está no mesmo diretório que este script
-ASSETS = Path(os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets"))
+ASSETS = Path(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets"))
 
 WIDTH, HEIGHT = 900, 950
 FPS = 60

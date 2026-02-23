@@ -1,7 +1,7 @@
 import pytest
 from search import Node  # Classe oficial do AIMA
-from astar_pacman import PacmanGridProblem
-from pacman_gamestate import UP, DOWN, LEFT, RIGHT
+from ProjectGrupo9.main import PacmanGridProblem
+from ProjectGrupo9.pacman_gamestate import UP, DOWN, LEFT, RIGHT
 
 # ======================================================================
 # FIXTURES (Ambiente Simulado para os Testes)
